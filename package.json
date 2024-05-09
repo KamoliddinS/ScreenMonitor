@@ -1,0 +1,36 @@
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.3"
+  },
+  "build": {
+    "appId": "your.app.id",
+    "directories": {
+      "output": "build"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    }
+  },
+  "dependencies": {
+    "electron-builder": "^24.13.3",
+    "electron-updater": "^6.1.8"
+  },
+  "publish": {
+    "provider": "github",
+    "repo": "desktop-monitoring",
+    "owner": "KamoliddinS"
+  }
+}
