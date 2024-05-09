@@ -13,6 +13,10 @@
     "electron-builder": "^24.13.3",
     "electron": "^30.0.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KamoliddinS/ScreenMonitor.git"
+  },
   "build": {
     "appId": "your.app.id",
     "productName": "YourApp",
@@ -35,10 +39,5 @@
   "dependencies": {
     
     "electron-updater": "^6.1.8"
-  },
-  "publish": {
-    "provider": "github",
-    "repo": "desktop-monitoring",
-    "owner": "KamoliddinS"
   }
 }
